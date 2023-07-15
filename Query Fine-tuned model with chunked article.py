@@ -9,7 +9,7 @@ openai.api_key = "<API_KEY>"
 # this is the file you will chunk and iterate over each chunk to fine-tuned model
 filename = '<FILE_PATH>'
 
-output_filename = f"UV-V1_output_{filename.split('/')[-1]}"
+output_filename = f"_output_{filename.split('/')[-1]}"
 
 with open(filename, 'r') as f:
     article_text = f.read()
